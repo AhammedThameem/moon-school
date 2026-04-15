@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moon School of Creative Science</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="stylemoon.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#hero">
+  <img src="resource/moonlogo.jpg" alt="Moon School of Creative Science" class="nav-logo-img">
+  <div class="nav-logo-text">MOON SCHOOL
+    <span>OF CREATIVE SCIENCE</span>
+  </div>
+</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Admission</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#why" onclick="closeMenu()">Why Us</a>
+  <a href="#programs" onclick="closeMenu()">Programs</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+  <a href="#contact" onclick="closeMenu()" style="color:var(--teal-dark);font-weight:900;">Admission Enquiry →</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="blob1 hero-blob"></div>
+  <div class="blob2 hero-blob"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-badge">Habituating Excellence</div>
+      <h1>Where Young Minds <em>Discover</em> & Grow</h1>
+      <p>Moon School of Creative Science nurtures every child from Pre-KG through Grade 7 with innovative, activity-based learning rooted in values and faith.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Apply for Admission</a>
+        <a href="#why" class="btn-outline">Why Choose Us</a>
+      </div>
+      <div class="admission-badge">Admissions Open — 2024–25</div>
+      
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-logo-card">
+        <div class="hero-visual">
+          <div class="hero-logo-card">
+            <img src="resource/moonlogo.jpg" alt="Moon School of Creative Science Logo" class="hero-logo-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">About Us</div>
+      <h2 class="section-title">A School Built on <br>Values & Curiosity</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <div class="about-img-box">
+          <div class="big-icon">🏫</div>
+          <h3>Moon School of Creative Science</h3>
+          <p>A nurturing environment where every child's potential is recognized, celebrated, and guided with care, creativity, and character.</p>
+          <br>
+          <p style="font-size:1.5rem;font-weight:900;margin-top:0.5rem;">🌙</p>
+        </div>
+        <div class="about-card">
+          <div class="icon">📚</div>
+          <div>
+            <strong>CBSE Curriculum</strong>
+            <span>Nationally recognized board</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <h3>Empowering Every Child to Shine</h3>
+        <p>At Moon School of Creative Science, we believe that education is not just about academics — it's about building character, developing creativity, and strengthening faith. Our campus is a safe, vibrant space where children love to learn.</p>
+        <p>We combine modern pedagogical methods with strong value systems to create well-rounded individuals who are ready for tomorrow's world. From our youngest Pre-KG learners to our Grade 7 students, every child receives personalized attention.</p>
+        <p>As part of our enriched syllabus, Quran Hifz (memorization) is woven into the daily routine — alongside Tajweed and understanding of meaning — allowing students to internalize the words of Allah while excelling in academics. Age-appropriate Hifz goals are set for each level, with dedicated hours, supportive memorization techniques, and regular revision circles to ensure retention and spiritual connection. </p>
+        <div class="grades-pills">
+          <span class="pill">🌱 Pre-KG</span>
+          <span class="pill">🌼 LKG</span>
+          <span class="pill">🌻 UKG</span>
+          <span class="pill">📖 Grade 1</span>
+          <span class="pill">✏️ Grade 2</span>
+          <span class="pill">🔬 Grade 3</span>
+          <span class="pill">🎨 Grade 4</span>
+          <span class="pill">🧮 Grade 5</span>
+          <span class="pill">💡 Grade 6</span>
+          <span class="pill">🏆 Grade 7</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="container">
+    <div class="why-header reveal">
+      <div class="section-label">Why Choose Us</div>
+      <h2 class="section-title">Everything Your Child Needs</h2>
+      <p class="section-sub" style="margin:0 auto;">We go beyond textbooks to deliver a complete, enriching school experience.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal">
+        <div class="feature-icon">🧠</div>
+        <h3>Innovative & Activity-Based Learning</h3>
+        <p>Hands-on activities, projects, and experiments make learning exciting and deeply effective for young minds.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">💡</div>
+        <h3>Critical Thinking & Problem Solving</h3>
+        <p>We train students to think analytically, ask great questions, and approach challenges with confidence.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">🌟</div>
+        <h3>Value Education</h3>
+        <p>Character development is woven into every aspect of school life — honesty, empathy, and responsibility.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">📋</div>
+        <h3>CBSE Syllabus</h3>
+        <p>Following the nationally recognized CBSE curriculum, ensuring a strong academic foundation for every student.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">👩‍🏫</div>
+        <h3>Experienced & Caring Faculty</h3>
+        <p>Our dedicated teachers bring passion, expertise, and genuine care to the classroom every single day.</p>
+      </div>
+      <div class="feature-card reveal">
+        <div class="feature-icon">📖</div>
+        <h3>Quran Hifz Program</h3>
+        <p>A unique program to help students memorize and connect with the Quran, building spiritual strength alongside academics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- MISSION QUOTE -->
+<section id="mission">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Our Promise</div>
+      <h2 class="section-title">Our Core Mission</h2>
+    </div>
+    <div class="mission-quote reveal">
+      <blockquote>
+        Build knowledge, strengthen faith and grow with confidence — that is the promise we make to every child and every family who walks through our doors.
+      </blockquote>
+      <cite>— Moon School of Creative Science</cite>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Enquire About Admission</h2>
+      <p class="section-sub">Reach out to us today. Our team is happy to answer all your questions and guide you through the admission process.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Contact Information</h3>
+        <div class="contact-item">
+          <div class="contact-item-icon">📞</div>
+          <div class="contact-item-text">
+            <strong>Phone / WhatsApp</strong>
+            <a href="tel:+918848593819">+91 88485 93819</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">🏫</div>
+          <div class="contact-item-text">
+            <strong>Location</strong>
+            <span>Kanjiramchira, Alappuzha</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📋</div>
+          <div class="contact-item-text">
+            <strong>Curriculum</strong>
+            <span>CBSE — Pre-KG to Grade 7</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">🕒</div>
+          <div class="contact-item-text">
+            <strong>Admission Status</strong>
+            <span style="color:var(--teal-dark);font-weight:700;">Open — Admissions Ongoing</span>
+          </div>
+        </div>
+        <a href="https://wa.me/918848593819?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Moon%20School%20of%20Creative%20Science." target="_blank" class="btn-primary" style="display:inline-flex;align-items:center;gap:8px;margin-top:1rem;">
+          💬 Chat on WhatsApp
+        </a>
+        <a href="https://maps.app.goo.gl/AUSNjkH9af6seLax8" target="_blank" class="btn-primary" style="display:inline-flex;align-items:center;gap:8px;margin-top:1rem;">
+          View on Google Maps
+        </a>
+      </div>
+
+      <div class="contact-form reveal">
+  <h3>Send an Enquiry</h3>
+  
+  <form id="enquiryForm" 
+        action="https://formspree.io/f/xzdydryg" 
+        method="POST"
+        onsubmit="return handleFormSubmit(event)">
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label>Parent's Name</label>
+        <input type="text" name="parent_name" placeholder="Your name" required />
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required />
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label>Child's Name</label>
+      <input type="text" name="child_name" placeholder="Child's full name" required />
+    </div>
+    
+    <div class="form-group">
+      <label>Applying for Grade</label>
+      <select name="grade" required>
+        <option value="">Select a class</option>
+        <option>Pre-KG</option>
+        <option>LKG</option>
+        <option>UKG</option>
+        <option>Grade 1</option>
+        <option>Grade 2</option>
+        <option>Grade 3</option>
+        <option>Grade 4</option>
+        <option>Grade 5</option>
+        <option>Grade 6</option>
+        <option>Grade 7</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label>Message (optional)</label>
+      <textarea name="message" placeholder="Any questions or information you'd like to share..."></textarea>
+    </div>
+    
+    <input type="hidden" name="_subject" value="New Admission Enquiry - Moon School">
+    
+    <input type="text" name="_gotcha" style="display:none">
+    
+    <button type="submit" class="submit-btn">Submit Enquiry 🚀</button>
+  </form>
+  
+    <div class="form-success" id="formSuccess" style="display:none;">
+      <div class="check">✅</div>
+        <h4>Thank you! We'll be in touch soon.</h4>
+    <p style="color:#667;margin-top:0.5rem;font-size:0.9rem;">Our admissions team will contact you.</p>
+     </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">🌙 MOON SCHOOL OF CREATIVE SCIENCE</div>
+  <p>Habituating Excellence — CBSE School, Pre-KG to Grade 7</p>
+  <div class="footer-links">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#why">Why Us</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Admissions</a>
+  </div>
+  <p>📞 <a href="tel:+918848593819" style="color:var(--teal-light);text-decoration:none;">+91 88485 93819</a></p>
+  <div class="copyright">Moon School of Creative Science.</div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a class="whatsapp-fab" href="https://wa.me/918848593819?text=Hello%2C%20I%27d%20like%20to%20know%20more%20about%20admissions." target="_blank" title="Chat on WhatsApp">💬</a>
+
+<script>
+  async function handleFormSubmit(event) {
+    event.preventDefault();
+    
+    const form = document.getElementById('enquiryForm');
+    const formData = new FormData(form);
+    
+    // Show loading state on button
+    const submitBtn = form.querySelector('.submit-btn');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = 'Sending... ⏳';
+    submitBtn.disabled = true;
+    
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+      
+      if (response.ok) {
+        form.style.display = 'none';
+        document.getElementById('formSuccess').style.display = 'block';
+        form.reset(); // Clear the form
+      } else {
+        const errorData = await response.json();
+        alert(errorData.error || 'Something went wrong. Please try again.');
+        // Reset button
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+      }
+    } catch (error) {
+      alert('Network error. Please check your connection and try again.');
+      // Reset button
+      submitBtn.innerHTML = originalText;
+      submitBtn.disabled = false;
+    }
+  }
+
+  function toggleMenu() {
+    const nav = document.getElementById('mobileNav');
+    nav.classList.toggle('open');
+  }
+  
+  function closeMenu() {
+    document.getElementById('mobileNav').classList.remove('open');
+  }
+
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 60);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  window.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    if (nav) {  // Added safety check
+      nav.style.boxShadow = window.scrollY > 30
+        ? '0 4px 24px rgba(58,172,184,0.18)'
+        : '0 2px 20px rgba(58,172,184,0.08)';
+    }
+  });
+
+  document.querySelectorAll('.mobile-nav a').forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
